@@ -21,9 +21,9 @@ S'organitza per temes i situacions d'aprenentatge, amb fitxers PHP senzills i ú
 ### ✅ Opció 1: Amb [Codespaces](https://github.com/features/codespaces)
 
 1. Crea un fork o obri aquest repositori amb Codespaces
-2. Ves a la carpeta corresponent (`public/`, si hi ha)
-3. Obri el fitxer `.php` i accedeix des del navegador intern
-
+2. Executa el servidor php en el directori corresponent: `php -S 0.0.0.0:8000 -t dwes-exemples-classe/01-php-basics`
+3. Obri el navegador i navega pels exercicis
+ 
 ### 🐳 Opció 2: En local amb Docker
 
 Pots crear un fitxer `docker-compose.yml` amb Apache + PHP per a servir el codi.
